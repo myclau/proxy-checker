@@ -15,3 +15,12 @@ $ docker run -d --name=proxychecker proxychecker
 ```bash
 $ docker logs -tf proxychecker
 ```
+# How to clean up or ready for rerun
+1. run command
+```bash
+$ docker stop proxychecker
+```
+2. run command
+```bash
+$ docker rm proxychecker
+```
